@@ -4,16 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Quiz Game</title>
+    <link rel='stylesheet' href='assets/styles.css'>
 </head>
 <body>
     <header>
-
+        <h1>A Quiz Game</h1>
+        <p id='time-tag'>100</p>
+        <p>HighScore Page</p>
     </header>
     <main>
-
+        <section id='start-section'>
+            <h2>Thanks for Playing</h2>
+            <p>You Just have to Press the Start Button to start the game!</p>
+            <button id='start-button'>Start</button>
+        </section>
+        <section id='quiz-section' style='display:none'>
+            <h3 id='question-tag'></h3>
+            <div id='button-group'>
+            </div>
+        </section>
     </main>
     <footer>
-        
+       <p>DISCLAIMER: This is intended to be for educational purposes. 
     </footer>
 </body>
 </html>
