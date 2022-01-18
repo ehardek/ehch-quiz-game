@@ -9,23 +9,33 @@
 <body>
     <header>
         <h1>A Quiz Game</h1>
-        <p id='time-tag'>100</p>
+        <p id='time-tag'></p>
         <p>HighScore Page</p>
     </header>
     <main>
         <section id='start-section'>
-            <h3>Thanks for Playing</h2>
-            <p>You Just have to Press the Start Button to start the game!</p>
+            <h3>This Is A Quiz Game</h2>
+            <p>You Just Have To Press the Start Button!</p>
             <button id='start-button'>Start</button>
         </section>
-        <section id='quiz-section' style='display:none'>
+        <section id='quiz-section' class='hide'>
             <h3 id='question-tag'></h3>
             <div id='button-group'>
             </div>
+        </section>
+        <section id='end-section' class='hide' >
+            <h3>Thanks For Playing!</h3>
+            <form id='initials-form'>
+                <label for='initials'>Add Your Score!</label>
+                <input type='text' name='initials' id='intials-input'>
+            </form>
         </section>
     </main>
     <footer>
        <p>DISCLAIMER: This is intended to be for educational purposes. 
     </footer>
 </body>
+<script src="./assets/js/questions.js"></script>
+<script src="./assets/js/script.js"></script>
+
 </html>
